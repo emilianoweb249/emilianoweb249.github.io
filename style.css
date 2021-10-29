@@ -658,7 +658,7 @@ headerEMI .categorias a.activo {
 	height: 60px;
 	background: #000;
 	color: #fff;
-	margin: 30px;
+	margin: 20px;
 	text-align: center;
 	border-radius: 100px;
 	transition: .3s ease all;
@@ -668,6 +668,7 @@ headerEMI .categorias a.activo {
 .contact .redes-sociales .instagram {background: #c13584;}
 .contact .redes-sociales .github {background: #171515;}
 .contact .redes-sociales .googlePlay {background: #00a1e7;}
+.contact .redes-sociales .linkedin {background: #0e76a8;}
 
 .contact .redes-sociales a i {
 	font-size: 40px;
