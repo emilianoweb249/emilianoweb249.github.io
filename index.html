@@ -32,6 +32,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 </head>
 
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<!-- para las cookies https://www.osano.com/cookieconsent/download/  -->
+
+
+
 <body>
   <div class="scroll-up-btn">
     <i class="fas fa-angle-up"></i>
@@ -555,5 +560,32 @@
   <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
   <script src="main.js"></script>
 </body>
+
+
+
+
+<!-- para las cookies https://www.osano.com/cookieconsent/download/  -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#fe001a"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-right",
+  "content": {
+    "message": "This website uses cookies to ensure you get the best experience on my web."
+  }
+});
+</script>
+
+
+
+
 
 </html>
