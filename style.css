@@ -378,6 +378,9 @@ section .title::after{
     top: 0;
     background: #fe001a;
 }
+.skills-content .right .UX::before{
+    width: 100%;
+}
 .skills-content .right .html::before{
     width: 95%;
 }
